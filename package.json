@@ -1,0 +1,24 @@
+{
+  "name": "izettle-integrations",
+  "version": "1.0.0",
+  "description": "A simple webhook formatter for izettle to push notifications to chat apps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonireilly/izettle-integrations.git"
+  },
+  "author": "Simon Reilly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonireilly/izettle-integrations/issues"
+  },
+  "homepage": "https://github.com/simonireilly/izettle-integrations#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "serverless-dotenv-plugin": "^2.1.1"
+  }
+}
