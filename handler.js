@@ -12,7 +12,7 @@ exports.postWebhook = (event, context, callback) => {
     },
     body: {
       text: JSON.stringify(event.body) || 'empty message recieved',
-      icon_emoji: `:${slackIcon}:'`,
+      icon_emoji: `:${slackIcon}:`,
     },
     json: true,
   };
